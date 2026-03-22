@@ -2,7 +2,7 @@
 
 ## Approved Plan Steps:
 
-### 1. [ ] GitHub Repo Setup
+### 1. [✅] GitHub Repo Setup
 - Init git repo if needed: `git init`
 - Add remote/origin: `git remote add origin https://github.com/USERNAME/campus-connect-ai.git` (create repo first)
 - Commit & push: `git add . && git commit -m "Initial commit" && git push -u origin main`
@@ -29,5 +29,5 @@
 - Test auth/posts/AI chat end-to-end
 - Mark complete
 
-**Progress will be updated after each step.**
+**Progress:** GitHub repo: https://github.com/Nitin4969/Campus-connect-Ai-assistant ✅ | MongoDB: Pending MONGODB_URI & JWT_SECRET 📝 | Backend/Frontend: Pending | Test: Pending\n\n**Progress will be updated after each step.**
 

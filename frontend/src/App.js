@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          <h1>Campus Connect + AI Assistant</h1>
+<header className="App-header">
+          <h1>🏫 Campus Connect + AI Assistant</h1>
         </header>
         <Routes>
         <Route path="/" element={<Login />} />
