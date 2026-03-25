@@ -2,7 +2,7 @@
 
 ## Approved Plan Steps:
 
-### 1. [✅] GitHub Repo Setup
+### 1. [✅] GitHub Repo Setup - https://github.com/Nitin4969/Campus-connect-Ai-assistant
 - Init git repo if needed: `git init`
 - Add remote/origin: `git remote add origin https://github.com/USERNAME/campus-connect-ai.git` (create repo first)
 - Commit & push: `git add . && git commit -m "Initial commit" && git push -u origin main`

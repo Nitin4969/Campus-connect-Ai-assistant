@@ -10,7 +10,4 @@ const eventSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Event', eventSchema);
-</xai:function_call">
 
-<xai:function_call name="create_file">
-<parameter name="absolute_path">c:/Users/nitin/OneDrive/Desktop/campus connect + ai assistant/backend/routes/notes.js

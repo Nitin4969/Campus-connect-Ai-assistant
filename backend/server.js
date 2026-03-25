@@ -17,16 +17,14 @@ app.use('/api/notes', require('./routes/notes'));
 app.use('/api/events', require('./routes/events'));
 app.use('/api/profiles', require('./routes/profiles'));
 
-
-
-// MongoDB Connect
-mongoose.connect(process.env.MONGODB_URI)
+// MongoDB Connect - optional for demo
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/campusconnect')
   .then(() => console.log('MongoDB connected'))
-  .catch(err => console.log(err));
+  .catch(err => console.log('MongoDB not connected - running in demo mode:', err.message));
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Campus Connect + AI Assistant Backend');
+  res.json({ message: 'Campus Connect + AI Assistant Backend running!' });
 });
 
 app.listen(PORT, () => {
